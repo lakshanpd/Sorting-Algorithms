@@ -12,6 +12,7 @@ void selection_sort(vector<int> &arr)
     {
         min = arr[i];
         min_index = i;
+        //search minimum element after the position and swap
         for (int j=i+1;j<arr.size();j++)
         {
             if (arr[j]<min)
